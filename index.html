@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 5</title>
+
+    <style>
+        body{
+            background:#56375A;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        #container{
+            background:#492F4C ;
+            width: 400px;
+            margin: 0 auto;
+        }
+
+        #title{
+            padding-top: 20px;
+            font-size: 18px;
+        }
+
+        #title, #question, #or, #email, #password{
+            color:#fff;
+        }
+
+        #singup{
+            color: #C57564;
+            text-decoration: none;
+        }
+
+        #lastcolumn, #title, #or{
+            text-align: center;
+        }
+
+        #imageGoogle{
+            width: 20px;
+        }
+
+        #imageFacebook{
+            width: 20px;
+        }
+
+        #buttonG, #buttonF{
+            background:#533557;
+            color: #fff;
+            width: 150px;
+            height: 40px;
+            border: none;
+        }
+
+        #buttonF{
+            margin-left: 10px;
+        }
+
+        #accounts{
+            margin: 0 auto;
+        }
+
+        #seconddiv{
+            margin: 20px 43px ;
+        }
+
+        #inputs{
+            background: #3A253D;
+            border: none;
+            color:#685160;
+            width: 314px;
+            height: 30px;
+            margin-top: 5px;
+            margin-bottom: 20px;
+        }
+
+        #login{
+            background: #FFB37B;
+            border: none;
+            width: 314px;
+            height: 30px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="seconddiv">
+            <div id="accounts">
+                <p id="title">Log in with</p>
+                <button id="buttonG">
+                    <img id="imageGoogle" src="assets/google.png" alt="google">
+                    Google
+                </button>
+    
+                <button id="buttonF">
+                    <img id="imageFacebook" src="assets/facebook.png" alt="Facebook">
+                    Facebook
+                </button>
+            </div>
+            <p id="or">or</p>
+            <span id="email">Email</span>
+            <br>
+            <input id="inputs" type="email" placeholder="Enter your email">
+            <br>
+            <span id="password">Password</span>
+            <br>
+            <input id="inputs" type="password" placeholder="Enter your password">
+            <br>
+            <button id="login">Login in</button>
+        </div>
+    </div>
+    <p id="lastcolumn">
+        <span id="question">Don't have an account?</span>
+        <a id="singup" href="#">Sing Up</a>
+    </p>
+    
+</body>
+</html>
